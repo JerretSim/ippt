@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/pass3"
+        android:layout_width="190dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/awd"
+        android:background="#009933"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/pass_ns_men" />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="194dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/awd"
+        android:background="#009933"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/_50" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="194dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/one"
+        android:background="#0059b3"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/_61" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="194dp"
+        android:layout_height="84dp"
+        android:layout_above="@+id/pass4"
+        android:layout_alignParentEnd="true"
+        android:background="#4d94ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/_75" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="194dp"
+        android:layout_height="88dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/pass4"
+        android:background="#66a3ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/_85" />
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="194dp"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#b3d1ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/_90" />
+
+
+    <TextView
+        android:id="@+id/awd"
+        android:layout_width="190dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#99ddff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/award_type"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/pts"
+        android:layout_width="193dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="#99ddff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/total_points_requires" />
+
+    <TextView
+        android:id="@+id/pass4"
+        android:layout_width="190dp"
+        android:layout_height="88dp"
+        android:layout_above="@+id/pass7"
+        android:layout_alignParentStart="true"
+        android:background="#66a3ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/gold" />
+
+    <TextView
+        android:id="@+id/pass6"
+        android:layout_width="190dp"
+        android:layout_height="88dp"
+        android:layout_above="@+id/pass4"
+        android:layout_alignParentStart="true"
+        android:background="#4d94ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/silver" />
+
+    <TextView
+        android:id="@+id/pass7"
+        android:layout_width="190dp"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#b3d1ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/gold_for_commanders" />
+
+    <TextView
+        android:id="@+id/pass5"
+        android:layout_width="190dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/one"
+        android:background="#0059b3"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/pass_active_nsmen" />
+
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Work out Training Tips"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:layout_above="@+id/textView19"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/darker_gray" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="102dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="101dp"
+        app:srcCompat="@drawable/push" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="186dp"
+        app:srcCompat="@drawable/sit" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="97dp"
+        android:layout_height="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/runn" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="211dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView6"
+        android:text="How to train your Push-ups for the 60 counter!" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="228dp"
+        android:text="Hitting 60 sit-ups in 60 seconds!" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_marginBottom="73dp"
+        android:layout_marginStart="0dp"
+        android:text="@string/running_tips_to_hit_10mins" />
+
+    <TextView
+        android:id="@+id/pushup"
+        android:clickable="true"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView6"
+        android:text="https://www.youtube.com/watch?v=WWaWklw8_Rc" />
+
+    <TextView
+        android:id="@+id/situp"
+        android:clickable="true"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginTop="-186dp"
+        android:text="https://www.youtube.com/watch?v=eFwQ-XR87Ig" />
+
+    <TextView
+        android:id="@+id/run"
+        android:clickable="true"
+        android:autoLink="all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignParentEnd="true"
+        android:text="https://www.youtube.com/watch?v=UnJxyfyDyHU" />
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Home"
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ippt</string>
+    <string name="Login">login</string>
+    <string name="pass_ns_men">Pass(NS Men)</string>
+    <string name="_50"><![CDATA[<50]]></string>
+    <string name="_61"><![CDATA[<61]]></string>
+    <string name="_75"><![CDATA[<75]]></string>
+    <string name="_85"><![CDATA[<85]]></string>
+    <string name="_90"><![CDATA[<90]]></string>
+    <string name="award_type">Award Type</string>
+    <string name="total_points_requires">Total Points Requires</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver</string>
+    <string name="gold_for_commanders">Gold(For Commanders}</string>
+    <string name="pass_active_nsmen">Pass(Active NSmen)</string>
+    <string name="ippt_scoreboards">IPPT Scoreboards</string>
+    <string name="_22"><![CDATA[<22]]></string>
+    <string name="running_tips_to_hit_10mins">Running tips to hit 10mins</string>
+</resources>
